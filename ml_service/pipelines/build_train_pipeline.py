@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath("./ml_service/util"))  # NOQA: E402
 from workspace import get_workspace
 from attach_compute import get_compute
 
-
+#main
 def main():
     load_dotenv()
     workspace_name = os.environ.get("BASE_NAME")+"-AML-WS"
